@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable="no">
+    <title>Grammer</title>
+    
+    <link rel="stylesheet" href="../CSSS/Grammer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ 
+</head>
+<body>
+
+<div class="all-grammer-content"  data-scroll-container>
+
+<div data-scroll  onclick="tense()" class="width" id="tense"  >Tense</div>
+<div   data-scroll onclick="idioms()" class="width" id="tense"  >Idioms</div>
+<div  data-scroll onclick="analogy()" class="width" id="analogy"  >Analogy & Spelling</div>
+<div  data-scroll onclick="phrase()" class="width" id="analogy">Phrase</div>
+<div  data-scroll onclick="clause()" class="width" id="analogy">Clause</div>
+<div  data-scroll onclick="voicee()" class="width" id="analogy">Voice</div>
+<div  data-scroll onclick="vocab()" class="width" id="analogy">Vocabulary</div>
+<div data-scroll  onclick="partof()" class="width" id="analogy">Part of Speech</div>
+<div data-scroll onclick="prepo()" class="width" id="analogy">Preposition</div>
+<div data-scroll onclick="gs()" class="width" id="analogy">Grammar & Syntax </div>
+
+</div>
+
+
+<button class="back-button" onclick="goBack()"><i class="fa-solid fa-arrow-left"></i></button>
+
+<div  data-scroll class="category"><img src="../Pho/Test.png" width="200" alt=""></div>
+
+<div class="empty"></div>
+
+
+<audio id="clickSound">
+    <source src="../sound/POOOO.mp3" type="audio/mpeg">
+</audio>
+
+
+    <script src="../script.js"></script>
+</body>
+</html>
