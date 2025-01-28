@@ -1,0 +1,366 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    animation: fade .3s ease 1;
+}
+
+a{
+  font-size: 15px;
+  font-family: "Fira Sans", sans-serif;
+    text-decoration: none;
+    color:inherit;
+ }
+
+
+ @font-face {
+    font-family: 'iphone';
+    src: url(font/Ios\ Kohinoor\ font.ttf);
+ }
+ 
+ body{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+    width: 100%;
+}
+
+
+.navbar{
+  width: 100%;
+  display: flex;
+  background-color: black;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  z-index: 1000;
+  position: fixed;
+  color: white;
+  column-gap: 10px;
+  box-shadow: 0 5px 25px rgba(70, 150, 243,1);
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+}
+
+.Home{
+  width: 6%;
+  display: flex;
+  font-size: 23px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #9ad9f2;
+  height: 4rem;
+}
+
+.news{
+  width: 6%;
+  display: flex;
+  font-size: 23px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.ebook{
+  width: 6%;
+  display: flex;
+  font-size: 23px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.practice{
+  width: 6%;
+  display: flex;
+  font-size: 23px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+.more{
+  width: 6%;
+  display: flex;
+  font-size: 23px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+
+
+
+
+/* Content Start */
+.Top-line{
+  width: 100%;
+  height: auto;
+  height: 17rem;
+  display: flex;
+  z-index: -1;
+  flex-direction: column;
+  margin-top: 45%;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+    background:linear-gradient(to right,blue ,20%,rgb(255, 1, 137));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.3rem;
+    user-select: none;
+    font-family: r-c;
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url(font/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'r-c';
+    src: url(font/RobotoCondensed-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: 'satisfy';
+  src: url(font/Satisfy-Regular.ttf);
+}
+
+#pp{
+    width: 80%;
+    height: fit-content;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: r-c;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    user-select: none;
+}
+
+.explore{
+width: 30%;
+margin-top: 30%;
+font-family: "Fira Sans", sans-serif;
+display: flex;
+justify-content: center;
+user-select: none;
+font-size: 12px;
+transform: scale(1.3);
+transition-duration: 0.3s;
+align-items: center;
+color: white;
+border-radius: 50px;
+background-color:black;
+box-shadow: 2px 5px 12px rgb(174, 174, 174);
+height: 35px;
+}
+
+.explore:active{
+  transform: scale(1.1);
+
+}
+#fonto{
+  color:cyan;
+}
+
+@font-face {
+    font-family:'fira';
+    src: url(font/Ios\ Kohinoor\ font.ttf);
+}
+
+.balls{
+  width: 45px;
+  /* z-index: 1000; */
+  position: absolute;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  background-image: linear-gradient(120deg, #0a1ecde4 0%, #2688f0 100%);
+  box-shadow: 0px 4px 0px rgb(4, 78, 174);
+}
+
+.gif{
+user-select: none;
+}  
+
+.bubble{
+  width: 60px;
+  margin-left: 25%;
+  user-select: none;
+  margin-top: -14%;
+  display: flex;
+  object-fit: fill;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  box-shadow: 0px 0px 15px rgb(110, 130, 228);
+  position: relative;
+  border-radius: 50px;
+  background-image: linear-gradient(120deg, #7f8bf7e4 0%, #dbe8f6 100%);
+}
+
+.bubblee{
+  width: 30px;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: -1;
+  align-items: center;
+  height: 4px;
+  margin-top: 9%;
+  opacity: 0.9;
+  box-shadow: 0px 0px 15px rgb(110, 130, 228);
+  border-radius: 50px;
+  background-image: linear-gradient(120deg, #7f8bf7e4 0%, #dbe8f6 100%);
+}
+
+
+.logo{
+  border-radius: 50px;
+  user-select: none;
+}
+
+
+@font-face {
+  font-family: 'ip';
+  src: url(font/Ios\ Kohinoor\ font.ttf);
+}
+.quiz-container {
+  /* background-color: #f5f9ff; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  align-self: center;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  width: 100%;
+  text-align: center;
+}
+.question {
+  font-size: 16px;
+  /* margin-bottom: 25px; */
+  align-self: center;
+  border-radius: 50px;
+  font-family: 'ip';
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin-left: -10%;
+  height: auto;
+  /* background: linear-gradient(-280deg,rgb(245, 173, 245),rgb(140, 186, 251)); */
+  width: 90%;
+  /* font-weight: bold; */
+}
+.options {
+  list-style: none;
+  border: none;
+}
+.options li {
+  background-color:white;
+  padding: 16px;
+  display: flex;
+  font-family: 'ip';
+  border-radius: 50px;
+  box-shadow: 0px 0px 15px rgba(177, 176, 176, 0.448);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -40%;
+  margin: 20px;
+  width: 80%;
+  transition: background-color 0.3s;
+}
+
+.options li.correct {
+  background-color: rgb(155, 244, 176);
+  color: black;
+  box-shadow: none;
+  /* border: 1px solid rgb(218, 215, 215); */
+}
+.options li.incorrect {
+  /* border: 1px solid rgb(207, 203, 203); */
+  background-color: rgba(243, 195, 195, 0.885);
+  box-shadow: none;
+  /* color: white; */
+}
+button {
+  padding:9px;
+  margin: 10px;
+  font-family: 'fira';
+  width: 25%;
+  font-size: 12px;
+  border: none;
+  margin-bottom: 10%;
+  background-color: #007bff;
+  color: white;
+  margin-top: 10%;
+  transform: scale(1.3);
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.238);
+  border-radius: 50px;
+  transition-duration: 0.2s;
+}
+
+button:active{
+  transform: scale(1.1);
+}
+
+#prevBtn{
+  background-color: red;
+  font-size: 12px;
+}
+
+.bottom-btn{
+display: flex;
+width: 100%;
+justify-content: center;
+gap: 30px;
+}
+
+
+h2{
+  font-family: ip;
+  font-weight: 100;
+  margin-left: -50%;
+  left: 0;
+  margin-top: 25%;
+  font-size: 17px;
+}
+
+
+
+
+@keyframes fade {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+
+
