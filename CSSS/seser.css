@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @font-face {
      font-family: 'iphone';
      src: url(../font/Ios\ Kohinoor\ font.ttf);
@@ -28,10 +27,10 @@ font-size: 16px;
      to{
        opacity: 1;
      }
-=======
+    }
 @font-face {
      font-family: 'iphone';
-     src: url(../font/Ios\ Kohinoor\ font.ttf);
+     src:url(../font/Ios\ Kohinoor\ font.ttf);
 }
 
 p{
@@ -58,5 +57,4 @@ font-size: 16px;
      to{
        opacity: 1;
      }
->>>>>>> 1bc245083f43ef6401393bb81f51de95982a4f12
    }
