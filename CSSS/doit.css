@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .emptyy3{
      width: 100%;
@@ -6,4 +7,14 @@
      margin-top: 730%;
      position: absolute;
    }
+=======
+
+.emptyy3{
+     width: 100%;
+     height: 5px;
+     /* background-color: aqua; */
+     margin-top: 730%;
+     position: absolute;
+   }
+>>>>>>> 1bc245083f43ef6401393bb81f51de95982a4f12
    

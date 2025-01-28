@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -117,4 +118,125 @@ h1{
     to{
       opacity: 1;
     }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    animation: fade .3s ease 1;
+}
+
+
+.header{
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    position: fixed;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    height: 70px;
+    max-height: 80px;
+    background-color: black;
+    box-shadow: 0 5px 25px rgba(70, 150, 243,1);
+}
+
+#aa{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+#Home{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+font-size: min(25px);
+    border-radius: 10px;
+    height: 60px;
+    max-height: 90px;
+    /* background-color:red; */
+    color:white;
+
+}
+
+
+
+#Profile{
+    width: 15%;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+font-size: min(25px);
+    border-radius: 10px;
+    height: 60px;
+    max-height: 90px;
+    /* background-color:red; */
+    color: cyan;
+
+}
+
+
+#Motivations{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+font-size: min(25px);
+    border-radius: 10px;
+    height: 60px;
+    max-height: 90px;
+    /* background-color:red; */
+    color: white;
+
+}
+
+
+#Syllabus{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+font-size: min(25px);
+    border-radius: 10px;
+    height: 60px;
+    max-height: 90px;
+    /* background-color:red; */
+    color: white;
+
+}
+h1{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 17%;
+    margin-top: 300px;
+}
+
+
+.ai-logo{
+    position: absolute;
+    margin-top: -28px;
+    /* margin-left: -14px; */
+    /* width:20% ;
+    margin-left: 40%; */
+}
+
+
+
+@keyframes fade {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+>>>>>>> 1bc245083f43ef6401393bb81f51de95982a4f12
   }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
      font-family: 'iphone';
      src: url(../font/Ios\ Kohinoor\ font.ttf);
@@ -27,4 +28,35 @@ font-size: 16px;
      to{
        opacity: 1;
      }
+=======
+@font-face {
+     font-family: 'iphone';
+     src: url(../font/Ios\ Kohinoor\ font.ttf);
+}
+
+p{
+font-family: iphone;
+animation: fade .3s ease 1;
+font-size: 16px;
+}
+
+
+
+.null{
+     width: 100%;
+     margin-top: 1350%;
+     height: 5px;
+     position: absolute;
+   }
+
+   
+
+@keyframes fade {
+     from{
+       opacity: 0;
+     }
+     to{
+       opacity: 1;
+     }
+>>>>>>> 1bc245083f43ef6401393bb81f51de95982a4f12
    }

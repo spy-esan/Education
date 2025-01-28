@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -9,4 +10,17 @@
   flex-wrap: wrap;
   height: auto;
     width: 100%;
+=======
+
+
+
+   
+
+ body{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+    width: 100%;
+>>>>>>> 1bc245083f43ef6401393bb81f51de95982a4f12
 }

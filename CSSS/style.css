@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -291,4 +292,299 @@ body{
     to{
       opacity: 1;
     }
+=======
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    animation: fade .3s ease 1;
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family: 'iphone';
+    src: url(../font/Ios\ Kohinoor\ font.ttf);
+}
+
+
+
+#aa{
+    text-decoration: none;
+    color:inherit;
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+      width: 100%;
+  }
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index: 1000;
+    position: fixed;
+    color: white;
+    box-shadow: 0px 5px 16px rgb(125, 207, 240);
+    column-gap: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+  }
+  
+  
+  .Home{
+    width: 6%;
+    display: flex;
+    /* padding-top: 2.8rem; */
+    font-size: 23px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   color: white;
+    height: 4rem;
+  }
+  
+  
+  .ebook{
+    width: 6%;
+    display: flex;
+    /* padding-top: 2.8rem; */
+    font-size: 23px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+  }
+  
+  
+  .practice{
+    width: 6%;
+    display: flex;
+    /* padding-top: 2.8rem; */
+    font-size: 23px;
+    flex-direction: row;
+    justify-content: center;
+    color: #9ad9f2;
+    align-items: center;
+    height: 4rem;
+  }
+  
+  
+  
+  .more{
+    width: 6%;
+    display: flex;
+    /* padding-top: 2.8rem; */
+    font-size: 23px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+  }
+  
+  
+  
+
+
+
+
+.container {
+     position: absolute;
+     margin-top: 25%;
+     font-family:fira;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+     z-index: -1;
+     user-select: none;
+     font-size: 10px;
+     padding-bottom: 40px;
+     border-radius: 30px;
+     box-shadow: 0 3px 20px 2px rgb(160, 196, 240);
+     width: 85%;
+ }
+ 
+ 
+ .quizz{
+     background-color: blue;
+     color: white;
+     border-radius: 10px;
+     width: 100%;
+     margin-bottom: 30px;
+     height: 40px;
+     display: flex;
+     z-index: -1;
+     align-items: center;
+     justify-content:center; ;
+ }
+ 
+ p {
+     font-size: 13px;
+     margin-bottom: 20px;
+     color: #333;
+     font-weight: bolder;
+ }
+ 
+ .options {
+     display: flex;
+     width: 85%;
+     flex-direction: column;
+     gap: 10px;
+ }
+ 
+ button.option {
+     padding: 15px;
+     background-color:white;
+     border: none;
+     border-radius: 28px;
+     box-shadow: 0 3px 10px 2px rgb(229, 230, 232);
+     font-size: 15px;
+     color: #333;
+     cursor: pointer;
+     transition-duration: 0.2s;
+     transition: 0.3s ease;
+ }
+ 
+ button.option:hover {
+     box-shadow: 0 3px 10px 2px rgb(211, 212, 212);
+ }
+ 
+ button.correct {
+     background-color: #0fd83e !important;
+     color: black;
+ }
+ 
+ button.wrong {
+     background-color: #d30c20 !important;
+     color:black;
+ }
+ 
+ #quiz-container {
+     background-color: #f9f9f9;
+     border-radius: 10px;
+     margin-left: -50%;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     text-align: center;
+     position: relative;
+ }
+ 
+ #question-title{
+     color: blue;
+     padding: 15px;
+ }
+ 
+ #question-text {
+     margin-top: 5%;
+     width: 70%;
+     font-family: iphone;
+     font-size: 16px;
+     margin-bottom: 20px;
+ }
+ 
+ .options {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .option {
+     background-color: #e0e0e0;
+     border: none;
+     padding: 10px;
+     font-family: iphone;
+     margin: 5px;
+     cursor: pointer;
+     border-radius: 5px;
+     font-size: 16px;
+ }
+ 
+ .option.correct {
+     background-color: #00ff08;
+     color:white;
+ }
+ 
+ .option.wrong {
+     background-color: #f44336;
+     color: white;
+ }
+ 
+ 
+ 
+ h2{
+     margin-top: 380%;
+     position: absolute;
+     font-family:fira;
+     font-size: 15px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     color: black;
+     background-color: #00bfff;
+     box-shadow: 12px 10px 23px rgb(193, 196, 198);
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+     width: 30%;
+     height: 40px;
+     margin-left: 0;
+     z-index: -1;
+ 
+ }
+ 
+ .next{
+     background-color: gold;
+     width: 35%;
+     margin-top: 10%;
+     height: 35px;
+     font-size: 13px;
+     display: flex;
+     border-radius: 50px;
+     user-select: none;
+     font-weight: bold;
+     color: black;
+     justify-content: center;
+     transform: scale(1.3);
+     transition-duration: 0.3s;
+     align-items: center;
+     box-shadow: 12px 10px 23px rgb(153, 190, 215);
+     font-family: iphone;
+ }
+ 
+ .next:active{
+     transform: scale(1.1);
+ }
+ 
+ 
+ 
+ @font-face {
+     font-family: 'iphone';
+     src: url(../font/Ios\ Kohinoor\ font.ttf);
+ }
+
+ @font-face {
+     font-family: 'fira';
+     src: url(../font/FiraSans-Regular.ttf);
+ }
+
+ 
+
+@keyframes fade {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+>>>>>>> 1bc245083f43ef6401393bb81f51de95982a4f12
   }
