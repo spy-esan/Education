@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     animation: fade .3s ease 1;
+    scrollbar-width: none;
+    user-select: none;
 }
 
 a{
@@ -40,11 +42,11 @@ a{
   position: fixed;
   color: white;
   column-gap: 10px;
-  box-shadow: 0 5px 25px rgba(70, 150, 243,1);
+  box-shadow: 0 5px 25px rgb(125, 185, 253);
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height: 60px;
+  height: 4rem;
 }
 
 .Home{
@@ -57,6 +59,7 @@ a{
   color: #9ad9f2;
   height: 4rem;
 }
+
 
 .news{
   width: 6%;
@@ -118,7 +121,7 @@ h1{
     background:linear-gradient(to right,blue ,20%,rgb(255, 1, 137));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1.3rem;
+    font-size: 6vw;
     user-select: none;
     font-family: r-c;
 }
@@ -160,15 +163,14 @@ font-family: "Fira Sans", sans-serif;
 display: flex;
 justify-content: center;
 user-select: none;
-font-size: 12px;
+font-size: 3.3vw;
 transform: scale(1.3);
 transition-duration: 0.3s;
 align-items: center;
-color: white;
 border-radius: 50px;
-background-color:black;
+background-color:Gold;
 box-shadow: 2px 5px 12px rgb(174, 174, 174);
-height: 35px;
+height: 3rem;
 }
 
 .explore:active{
@@ -362,3 +364,40 @@ h2{
   }
 }
 
+.content-box{
+  width: 100%;
+  column-gap: 20px;
+  row-gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-top: 30%;
+  padding-bottom: 20%;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  overflow-y: hidden;
+  /* background-color: black; */
+
+}
+
+body{
+  background-color: rgb(247, 247, 246);
+}
+
+
+
+#boxx{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px;
+gap: 10px;
+width: 38%;
+border-radius: 10px;
+height: 7rem;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 05px 15px rgb(222, 220, 220) ;
+font-family: ip;
+flex-direction: column;
+}

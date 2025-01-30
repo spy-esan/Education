@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     animation: fade .3s ease 1;
+    scrollbar-width: none;
     
 }
 
@@ -25,7 +26,16 @@ body{
     height: auto;
       width: 100%;
   }
-
+  .Bank{
+    width: 6%;
+    display: flex;
+    font-size: 23px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    height: 4rem;
+  }
   
 .news{
     width: 6%;

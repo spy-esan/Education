@@ -466,10 +466,26 @@ scroll.on("scroll", () => {
 
 
 
+function home(){
+  window.location.href='index.html'
+}
 
 
+function home_Sub(){
+  window.location.href='index.html'
+}
 
+function Practice(){
+  window.location.href='HTMLS/Practice.html'
+}
 
+function que_bank(){
+  window.location.href='HTMLS/Practice.html'
+}
+
+function more(){
+  window.location.href='HTMLS/more.html'
+}
 
 
 
