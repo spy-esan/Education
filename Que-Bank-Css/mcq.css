@@ -196,11 +196,11 @@ button:hover {
     box-shadow: 0 5px 8px rgba(97, 96, 96, 0.463);
     background-color: black;
     height: 2rem;
-    transition-duration: 0.2s;
+    transition-duration: 0.3s;
 }
 
-#startTimer:hover{
-    transform: scale(1.2);
+#startTimer:active{
+    transform: scale(.8);
     opacity: 0;
 }
 

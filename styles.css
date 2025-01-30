@@ -248,51 +248,70 @@ user-select: none;
   font-family: 'ip';
   src: url(font/Ios\ Kohinoor\ font.ttf);
 }
+
+
 .quiz-container {
-  /* background-color: #f5f9ff; */
   display: flex;
   flex-direction: column;
   margin-top: 10%;
   align-self: center;
   border-radius: 8px;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   width: 100%;
   text-align: center;
 }
+
+.quiz-container-index{
+  display: flex;
+  flex-direction: column;
+  margin-top: -3%;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+#know{
+  margin-top: -10%;
+  padding: 10px;
+  font-size: 5vw;
+  color: rgb(15, 9, 126);
+  padding-bottom: 5%;
+  font-family: pop;
+}
+
+@font-face {
+  font-family: pop;
+  src: url(font/FN\ Mamun\ Turio\ Unicode.ttf);
+}
 .question {
   font-size: 16px;
-  /* margin-bottom: 25px; */
   align-self: center;
-  border-radius: 50px;
   font-family: 'ip';
   color: rgb(0, 0, 0);
   padding: 10px;
-  margin-left: -10%;
   height: auto;
   /* background: linear-gradient(-280deg,rgb(245, 173, 245),rgb(140, 186, 251)); */
   width: 90%;
-  /* font-weight: bold; */
 }
 .options {
   list-style: none;
+  width: 80%;
+  margin-left: -5%;
   border: none;
 }
 .options li {
   background-color:white;
-  padding: 16px;
+  padding: 13px;
   display: flex;
   font-family: 'ip';
-  border-radius: 50px;
+  border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(177, 176, 176, 0.448);
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   height: auto;
-  font-size: 15px;
+  margin-top: 15px;
+  font-size: 4vw;
   font-weight: 400;
-  margin-top: -40%;
-  margin: 20px;
-  width: 80%;
+  width: 100%;
   transition: background-color 0.3s;
 }
 
@@ -311,18 +330,19 @@ user-select: none;
 button {
   padding:9px;
   margin: 10px;
-  font-family: 'fira';
-  width: 25%;
+  font-family: pop;
+  width: 55%;
   font-size: 12px;
   border: none;
   margin-bottom: 10%;
-  background-color: #007bff;
+  background-color: #04a34e;
   color: white;
   margin-top: 10%;
+  margin-bottom: 40%;
   transform: scale(1.3);
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.238);
-  border-radius: 50px;
+  border-radius: 10px;
   transition-duration: 0.2s;
 }
 
@@ -375,7 +395,6 @@ h2{
   padding-top: 30%;
   padding-bottom: 20%;
   flex-wrap: wrap;
-  margin-top: 2rem;
   overflow-y: hidden;
   /* background-color: black; */
 
@@ -400,4 +419,8 @@ background-color: rgb(255, 255, 255);
 box-shadow: 0px 05px 15px rgb(222, 220, 220) ;
 font-family: ip;
 flex-direction: column;
+transition-duration: .3s;
+}
+#boxx:active{
+  transform: scale(.9);
 }

@@ -471,16 +471,12 @@ function home(){
 }
 
 
-function home_Sub(){
-  window.location.href='index.html'
-}
-
 function Practice(){
   window.location.href='HTMLS/Practice.html'
 }
 
 function que_bank(){
-  window.location.href='HTMLS/Practice.html'
+  window.location.href='HTMLS/question-board.html'
 }
 
 function more(){

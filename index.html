@@ -14,23 +14,43 @@
         </head>
   <body>
 
+
+    
     <div class="navbar">
-        <div  class="Home" ><i class="fa-solid fa-house-chimney-window" onclick="home()"></i></div>
-        <div  class="practice"><i class="fa-solid fa-pen-to-square" onclick="Practice()"></i></div>
-        <div  class="practice"><i class="fa-solid fa-box-archive" onclick="que_bank()"></i></div>
-        <div class="more"><i class="fa-solid fa-user-gear" onclick="more()"></i></div>
-    </div>
+      <div  class="Home" ><i class="fa-solid fa-house-chimney-window" onclick="home()"></i></div>
+      <div  class="practice"><i class="fa-solid fa-pen-to-square" onclick="Practice()"></i></div>
+      <div  class="practice"><i class="fa-solid fa-box-archive" onclick="que_bank()"></i></div>
+      <div class="more"><i class="fa-solid fa-user-gear"></i></div>
+  </div>
+
+
+  
+  <div class="content-box">
+    <div class="animate__animated animate__fadeIn" id="boxx"><img src="Pho/documentation.png" width="50" alt="" onclick="window.location.href='HTMLS/question-board.html'"> প্রশ্ন ব্যাংক   </div>
+    <div class="animate__animated animate__fadeIn" id="boxx"><img src="Pho/lightning.png" width="40" alt=""  onclick="window.location.href='HTMLS/Practice.html'" > দ্রুত প্র্যাকটিস  </div>
+    <div  class="animate__animated animate__fadeIn" id="boxx"><img src="Pho/pencil.png" width="40" alt="">  পরীক্ষা </div>
+    <div  class="animate__animated animate__fadeIn" id="boxx"><img src="Pho/checklist.png" width="40" alt=""> HSC সিলেবাস </div>
+    <div  class="animate__animated animate__fadeIn" id="boxx"><img src="Pho/knowledge.png" width="40" alt=""> সাধারণ জ্ঞান</div>
+    <div class="animate__animated animate__fadeIn" id="boxx"><img src="Pho/ebook.png" width="40" alt=""> ই-বুক</div>
+  </div>
+    <br>
+<h4 id="know">জেনে রাখো - </h4>
+    <div class="quiz-container-index">
+      <div id="question" class="question">Question Text</div>
+      <ul id="options" class="options"></ul>
+      <div class="bottom-btn">
+      <button id="nextBtn" onclick="nextQuestion()">নতুন প্রশ্ন &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+  </div>
 
 
 
-    <div class="content-box">
-      <div class="animate__animated animate__fadeIn" id="boxx"><img src="Pho/documentation.png" width="50" alt=""> প্রশ্ন ব্যাংক   </div>
-      <div class="animate__animated animate__fadeIn" id="boxx"><img src="Pho/lightning.png" width="40" alt=""> দ্রুত প্র্যাকটিস  </div>
-      <div  class="animate__animated animate__fadeIn" id="boxx"><img src="Pho/pencil.png" width="40" alt="">  পরীক্ষা </div>
-      <div  class="animate__animated animate__fadeIn" id="boxx"><img src="Pho/checklist.png" width="40" alt=""> HSC সিলেবাস </div>
-      <div  class="animate__animated animate__fadeIn" id="boxx"><img src="Pho/knowledge.png" width="40" alt=""> সাধারণ জ্ঞান</div>
-      <div class="animate__animated animate__fadeIn" id="boxx"><img src="Pho/ebook.png" width="40" alt=""> ই-বুক</div>
-    </div>
+    <br>
+
+
+
+
+
 
 <!-- 
 
@@ -47,8 +67,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js" integrity="sha512-1PKqXBz2ju2JcAerHKL0ldg0PT/1vr3LghYAtc59+9xy8e19QEtaNUyt1gprouyWnpOPqNJjL4gXMRMEpHYyLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script  src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js" ></script>
-<!-- <script src="script.js"></script> -->
+<script src="script.js"></script>
 <script src="JSS/service-worker.js"></script>
+<script src="JSS/quiz.js" ></script>
 <script src="JSS/flash.js"></script>
 
 </body>

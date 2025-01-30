@@ -24,7 +24,16 @@ body{
     text-decoration: none;
     color:inherit;
 }
-
+.Bank{
+  width: 6%;
+  display: flex;
+  font-size: 23px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  height: 4rem;
+}
 .news{
   width: 6%;
   display: flex;
