@@ -488,5 +488,10 @@ function more(){
 
 
 
-
+document.getElementById("downloadBtn").onclick = () => {
+  const link = document.createElement("a");
+  link.href = "PDF/1.-hsc_bangla-1-2023.pdf"; // Replace with your PDF file path
+  link.download = "Bangla-1st.pdf"; // Replace with your desired filename
+  link.click();
+};
     
