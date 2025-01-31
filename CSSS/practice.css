@@ -167,7 +167,7 @@ body{
 
 
 .quiz-div{
-    width: 35%;
+    width: 60%;
     display: flex;
     overflow-x: hidden;
     font-family: fira;
@@ -386,7 +386,7 @@ body{
 
 
 .grammer{
-    width: 35%;
+    width: 60%;
     display: flex;
     font-family: fira;
     border-radius: 10px;
@@ -408,10 +408,14 @@ body{
     font-family: ip;
     src: url(../font/Ios\ Kohinoor\ font.ttf);
 }
+@font-face {
+    font-family: opp;
+    src: url(../font/FN\ Mamun\ Turio\ Unicode.ttf);
+}
 .g2{
-    width: 35%;
+    width: 60%;
     display: flex;
-    font-family: ip;
+    font-family: opp;
     border-radius: 10px;
     font-size: .9rem;
     justify-content: center;
