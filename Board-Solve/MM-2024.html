@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable="no">
+    <title> ময়মনসিংহ বোর্ড ২০২৪ </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../Css/Que-Solve.css">
+</head>
+<body>
+<!-- <button  onclick="goBack()"><i class="fa-solid fa-arrow-left"></i></button> -->
+
+<div class="header">
+ <h2>  ময়মনসিংহ বোর্ড ২০২৪  </h2>
+</div>
+
+    <div class="quiz-container">
+        <div id="question-list"></div>
+    </div>
+    <script>
+        const questions = [
+
+//1
+{
+    question: "' ডেকেছে কি সে আমারে ? শুনি নাই রাখিনি সন্ধান। ' এখানে 'সে' কে ?",
+    options: ["কবিভক্ত","কবির প্রিয়জন","শীতঋতু","বসন্ত ঋতু"],
+    correct: 3 
+},
+
+//2
+{
+question: "' সেই ফুল আমাদেরই প্রাণ। ' - এখানে 'ফুল' বলতে বোঝানো হয়েছে-",
+    options: ["বাংলা ভাষা","বাংলাদেশ","একুশের কৃষ্ণচূড়া","শহিদের রক্তের বুদবুদ"],
+    correct: 0 
+},
+
+//3
+    {
+    question: "আপদ আছে, জানি আঘাত আছে, তাই জেনে তো বক্ষে পরাণ নাচে। উদ্দীপকে আঠারো বছর বয়সের কোন বৈশিষ্ট্যের প্রতিফলন ঘটেছে ?",
+    options: ["সাহসিকতা","হীনম্মন্যতা","শৃঙ্খলাবোধ","নিশ্চয়তা"],
+    correct: 0 
+},
+
+
+//4
+{
+     question: "আপদ আছে, জানি আঘাত আছে, তাই জেনে তো বক্ষে পরাণ নাচে।  উদ্দীপকের সঙ্গে 'আঠারো বছর বয়স' কবিতার যে চরণের ভাবের সাথে মিল রয়েছে-    i. দুর্যোগে হাল ঠিকমতো রাখা ভার    ii. প্রাণ দেওয়া-নেওয়ার ঝুলিটা থাকে না শূন্য    iii. বিপদের মুখে এ বয়স অগ্রণী . নিচের কোনটি সঠিক ?",
+    options: ["i ও ii","i ও iii","ii ও iii","i, ii ও iii"],
+    correct: 2 
+},
+
+
+//5
+{
+ question:  "' আমি কিংবদন্তির কথা বলছি ' কবিতায় যে কবিতা শুনতে জানে না, সে কী শুনবে ?",
+    options: ["সমুদ্রের গর্জন","ঝড়ের আর্তনাদ","শ্বাপদের ভয়াবহতা","অস্ত্রের ঝনঝনানি"],
+    correct: 1 
+},
+
+
+//6
+{
+      question: "' আমি কিংবদন্তির কথা বলছি ' কবি বলে  গেছেন-   i. উচ্চারিত সত্যের মতো স্বপ্নের কথা   ii. প্রবহমান নদীর কথা   iii. উজ্জ্বল জানালার কথা .  নিচের কোনটি সঠিক ?",
+    options: ["i ও ii","i ও iii","ii ও iii","i, ii ও iii"],
+    correct: 3 
+},
+
+
+//7
+{
+ question:  "' সবাই মিলে সত্যিই আমরা বাংলাকে বিক্রি করে দিচ্ছি না তা ? '  ' সিরাজউদ্দৌলা ' নাটকে উক্তিটি কার?",
+    options: ["মীরজাফর","উমিচাঁদ","জগৎশেঠ","ঘসেটি বেগম"],
+    correct: 0 
+},
+
+
+//8
+{
+ question:  "ঘসেটি বেগমের বাড়িতে হঠাৎ নবাব উপস্থিত  হলে, সবাই-   i. অভিবাদন জানাল   ii. হকচকিয়ে গেল   iii. সতর্ক হলো .  নিচের কোনটি সঠিক ?",
+    options: ["i ও ii","i ও iii","ii ও iii","i, ii ও iii"],
+    correct: 2 
+},
+
+
+//9
+{
+    question: "'সিরাজউদ্দৌলা' নাটকে প্রথম অঙ্কের প্রথম দৃশ্যের স্থান কোনটি ?",
+    options: ["ফোর্ট উইলিয়াম জাহাজ","নবাবের দরবার","ঘসেটি বেগমের বাড়ি","ফোর্ট উইলিয়াম দুর্গ"],
+    correct: 3 
+},
+
+
+//10
+{
+ question:  "' সজ্ঞানে না জানলেও তারা একাট্টা, পথ তাদের এক।'  এখানে কার কার একাট্টা হওয়ার কথা বোঝানো হয়েছে ?",
+    options: ["মজিদ ও খালেক ব্যাপারীর","জমিলা ও রহিমার","তাহের ও কাদেরের","মতলুব খাঁ ও আওয়ালপুরের পীরের"],
+    correct: 0 
+},
+
+
+
+
+
+
+
+
+
+
+
+]
+// Back Button
+function goBack(){
+  window.history.back();
+}
+
+
+        function loadQuestions() {
+            const questionList = document.getElementById("question-list");
+            questionList.innerHTML = "";
+            
+            questions.forEach((q, index) => {
+                const questionDiv = document.createElement("div");
+                questionDiv.classList.add("question");
+                
+                const questionText = document.createElement("h3");
+                questionText.innerText = `${index + 1}. ${q.question}`;
+                questionDiv.appendChild(questionText);
+                
+                const optionsList = document.createElement("ul");
+                optionsList.classList.add("options");
+
+                q.options.forEach((option, i) => {
+                    const optionItem = document.createElement("li");
+                    optionItem.innerHTML = `<span class="circle">${String.fromCharCode(0x0995 + i)}</span> ${option}`;
+                    
+                    if (i === q.correct) {
+                        optionItem.classList.add("correct");
+                    }
+
+                    optionsList.appendChild(optionItem);
+                });
+
+                questionDiv.appendChild(optionsList);
+                questionList.appendChild(questionDiv);
+            });
+        }
+
+        loadQuestions();
+    </script>
+</body>
+</html>

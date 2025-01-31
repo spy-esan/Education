@@ -75,7 +75,7 @@ p{
     transition-duration: 0.2s;
 }
 .box:active{
-    transform: scale(0.8);
+    transform: scale(0.9);
 }
 .box:nth-child(1){
     background-image: url(../Que-Bank-Pic/Bangla-mcq.jpg);
@@ -83,16 +83,17 @@ p{
 }
 
 .box:nth-child(2){
-    background-image: url(../Que-Bank-Pic/bangla.jpg);
-    background-size: cover;
-}
-
-.box:nth-child(3){
     background-image: url(../Que-Bank-Pic/koo-vander.png);
     background-size: cover;
 }
 
+.box:nth-child(3){
+    background-image: url(../Que-Bank-Pic/khooo-vander.png);
+    background-size: cover;
+}
+
 .box:nth-child(4){
+    visibility: hidden;
     background-image: url(../Que-Bank-Pic/khooo-vander.png);
     background-size: cover;
 }
