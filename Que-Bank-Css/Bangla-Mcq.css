@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     animation: fade .4s ease 1;
+    user-select: none;
 }
 
 body{
