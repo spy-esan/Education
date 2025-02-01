@@ -302,7 +302,7 @@ const selectAnswer = (optionButton, questionIndex, selectedIndex) => {
 // Start Timer Function
 startButton.addEventListener("click", () => {
     if (timerActive) return;
-    startTimer(30);
+    startTimer(1);
     timerActive = true;
     showResultButton.disabled = false;
     startButton.disabled = true;
@@ -319,7 +319,7 @@ const startTimer = (minutes) => {
 
         if (time < 0) {
             clearInterval(timerInterval);
-            timerElement.innerText = "Time Up !";
+            timerElement.innerText = "Time Up ! See Your Result Below 😊";
             calculateResult(); // Auto-submit on time out
         }
     }, 1000);

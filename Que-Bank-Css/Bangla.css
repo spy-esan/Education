@@ -66,6 +66,20 @@ p{
 
 }
 
+
+.box2{
+    width: 80%;
+    column-gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 8.6rem; */
+    border-radius: 10px;
+    box-shadow: 5px 7px 15px rgb(193, 191, 191) ;
+    height: 7rem;
+    transition-duration: 0.2s;
+}
 .box{
     column-gap: 20px;
     width: 8.6rem;
@@ -74,6 +88,8 @@ p{
     height: 9rem;
     transition-duration: 0.2s;
 }
+
+
 .box:active{
     transform: scale(0.9);
 }
@@ -94,7 +110,7 @@ p{
 
 .box:nth-child(4){
     visibility: hidden;
-    background-image: url(../Que-Bank-Pic/khooo-vander.png);
+    /* background-image: url(../Que-Bank-Pic/khooo-vander.png); */
     background-size: cover;
 }
 

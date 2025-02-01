@@ -200,8 +200,8 @@ button:hover {
 }
 
 #startTimer:active{
-    transform: scale(.8);
-    opacity: 0;
+    transform: scale(.9);
+    /* opacity: 0; */
 }
 
 #timer{
@@ -234,10 +234,10 @@ border-radius: 10px;
     width: 40%;
     color: black;
     transition-duration: 0.2s;
-    background-color: rgb(217, 217, 248);
+    background-color: rgb(255, 217, 47);
 }
 #showResult:hover {
-    background-color: rgb(184, 184, 246);
+    background-color: rgb(227, 193, 1);
 }
 #showResult:active{
     transform: scale(0.8);
