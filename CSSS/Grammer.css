@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     animation: fade .3s ease 1;
+    scrollbar-width: none;
    
 }
 
@@ -170,15 +171,16 @@ align-items: center;
     transform: scale(1.1);
 }
 .category{
-    width: 70%;
-    height: 50px;
+    width: 100%;
+    /* background-color: black; */
     font-family: "Fira Sans", sans-serif;
     color: black;
+    padding-bottom: 10%;
     display: flex;
     font-size: 15px;
-    margin-top: 15%;
+    margin-top: 5%;
     font-weight: bold;
-    margin-left: 15%;
+    /* margin-left: 15%; */
     align-items: center;
     justify-content: center;
     border-radius: 10px;
