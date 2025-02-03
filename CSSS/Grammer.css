@@ -14,7 +14,14 @@
     font-family: 'iphone';
     src: url(../font/Ios\ Kohinoor\ font.ttf);
 }
-
+body{
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
 
 
 
@@ -104,12 +111,13 @@ font-size: min(25px);
 
 .all-grammer-content{
 width: 100%;
+margin-top: 50%;
 height: auto;
-position: absolute;
+/* position: absolute; */
 display: flex;
 z-index: -1;
 gap: 025px;
-margin-top: 50%;
+/* margin-top: 50%; */
 padding-bottom: 30%;
 flex-direction: column;
 justify-items: center;
@@ -173,23 +181,30 @@ align-items: center;
 }
 .category{
     width: 100%;
-    background-color: black;
-    font-family: "Fira Sans", sans-serif;
+    /* background-color: black; */
     color: black;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
     display: flex;
     font-size: 15px;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     z-index: -1;
     font-weight: bold;
     /* margin-left: 15%; */
+    top: 0;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     position: absolute;
 }
 
-
+.box-img{
+    background-size: cover;
+    background-image:url(../Pho/grammer.png);
+    width: 90px;
+    margin-top: 10%;
+    height: 90px;
+    background-position: center;
+}
 
 @keyframes fade {
     from{
