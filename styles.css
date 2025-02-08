@@ -299,7 +299,7 @@ user-select: none;
 }
 .options li {
   background-color:white;
-  padding: 13px;
+  padding: 17px;
   display: flex;
   font-family: 'ip';
   border-radius: 10px;
@@ -311,7 +311,7 @@ user-select: none;
   margin-top: 15px;
   font-size: 3.6vw;
   font-weight: 400;
-  width: 100%;
+  width: 95%;
   transition: background-color 0.3s;
 }
 
