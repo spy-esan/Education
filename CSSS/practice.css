@@ -120,7 +120,21 @@ body{
   }
   
     
+@font-face {
+    font-family: poppins;
+    src: url(../font/Poppins-Regular.ttf);
+}
 
+h2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-family: poppins;
+    justify-content: center;
+    padding-bottom: 10%;
+    align-items: center;
+    font-size: 6.3vw;
+}
 .content{
     display: flex;
     justify-content: space-evenly;
@@ -129,7 +143,7 @@ body{
     /* z-index: -1; */
     user-select: none;
     row-gap: 60px;
-    margin-top: 15%;
+    margin-top: 5%;
     padding-bottom: 100px;
     font-weight: bold;
     flex-wrap: wrap;
@@ -163,24 +177,50 @@ body{
     transform: scale(1.1);
 }
 
+.button-box{
+    width: 100%;
+    height: 4rem;
+    /* background-color:black; */
+    display: flex;
+    align-items: center;
+}
+button{
+    width: 40px;
+    height: 40px;
+    font-size: 4vw;
+    margin-left: 3%;
+    border-radius: 50px;
+    z-index: 1000;
+    border: none;
+    background-color: white;
 
-
-
+}
+@font-face {
+    font-family: bng;
+    src: url(../font/FN\ Mamun\ Turio\ Unicode.ttf);
+}
+#bng{
+    font-family: bng;
+}
 .quiz-div{
-    width: 60%;
+    width: 35%;
     display: flex;
     overflow-x: hidden;
     font-family: fira;
+    padding-top: 3%;
+    row-gap: 8px;
+    flex-direction: column;
     border-radius: 10px;
     font-size: .9rem;
+    padding-bottom: 3%;
+   
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 25px rgb(218, 216, 216);
     scrollbar-width: none;
-    height: 4.4rem;
-    box-shadow: 5px 10px 13px rgb(188, 187, 187);
+    height: 5.4rem;
     transform: scale(1.3);
     transition-duration: 0.2s;
-    background:linear-gradient(135deg,#a1c4fd,#c2e9fb);
 }
 
 .quiz-div:active{
